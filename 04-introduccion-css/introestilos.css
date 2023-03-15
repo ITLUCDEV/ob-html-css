@@ -13,3 +13,33 @@
 .color-rgba {
     color: rgba(100, 0, 200, 0.67)
 }
+
+/* Fondos */
+
+.fondo{
+    /* background-color: blanchedalmond; */
+    background-image: url("https://imgs.search.brave.com/S_0FbdsqDMjdhn1nQXyf2774duab8VB8lm_xg9qLEvI/rs:fit:1024:580:1/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vb25haXJj/b2RlLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAxOS8wOS9z/aW1wbGUtcGF0dGVy/bi1jc3MuanBnP3Jl/c2l6ZT0xMDI0JTJD/NTgwJnNzbD0x");
+    background-position: right bottom;
+}
+
+/* Tamaños (px no son responsive-friendly) */
+
+.ancho{
+    background-color: violet;
+    width: 100px;
+}
+
+.alto{
+    background-color:teal;
+    height: 100px;
+}
+
+/* Tarjeta */
+
+.tarjeta{
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    border-width: 1px;
+    padding: 10px 20px; /* El primer elemento es arriba y abajo, el segundo elemento a izquierda y derecha */
+    margin: 20px 40px 20px 40px; /* Arriba / Izquierda / Abajo / Derecha */
+}
