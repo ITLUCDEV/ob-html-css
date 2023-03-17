@@ -79,6 +79,10 @@ body{
     justify-content: center;
 }
 
+.twitter-btn:hover{
+    opacity: 0.75;
+}
+
 .twitter-btn picture img{
     width: 50%;
 }
@@ -135,6 +139,7 @@ label span {
 }
 
 label input{
+    color: white;
     width: 90%;
     background-color: #212121;
     border: none;
@@ -152,7 +157,7 @@ label input:hover{
 }
 
 label input:focus{
-    background-color: white;
+    background-color: #454045;
     border: solid 1px #f3f3f4;
     box-shadow: 0 0 4px rgba(234,76,137,0.1);
 }
