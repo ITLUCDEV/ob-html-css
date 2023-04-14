@@ -14,8 +14,21 @@
 }
 
 .principal {
+    display: flex;
+    flex-direction: column;
     flex-grow: initial;
     padding: 1rem;
     background-color: aqua;
 }
 
+@media (max-width: 640px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    .navbar {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0.1rem;
+    }
+}
