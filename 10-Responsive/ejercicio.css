@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    color: black;
+    background-color: antiquewhite;
+    
+}
+
+.principal {
+    flex-grow: initial;
+    padding: 1rem;
+    background-color: aqua;
+}
+
